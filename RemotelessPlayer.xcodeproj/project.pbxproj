@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065BA2F11990696B00DA20F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BA2F01990696B00DA20F7 /* AppDelegate.swift */; };
+		065BA2F41990696B00DA20F7 /* RemotelessPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 065BA2F21990696B00DA20F7 /* RemotelessPlayer.xcdatamodeld */; };
+		065BA2F61990696B00DA20F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BA2F51990696B00DA20F7 /* ViewController.swift */; };
+		065BA2F91990696B00DA20F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065BA2F71990696B00DA20F7 /* Main.storyboard */; };
+		065BA2FB1990696B00DA20F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065BA2FA1990696B00DA20F7 /* Images.xcassets */; };
+		065BA3071990696B00DA20F7 /* RemotelessPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BA3061990696B00DA20F7 /* RemotelessPlayerTests.swift */; };
+		065BA319199069A300DA20F7 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BA318199069A300DA20F7 /* ActionViewController.swift */; };
+		065BA31B199069A300DA20F7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065BA31A199069A300DA20F7 /* MainInterface.storyboard */; };
+		065BA31E199069A300DA20F7 /* MusicExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 065BA314199069A300DA20F7 /* MusicExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065BA3011990696B00DA20F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065BA2E31990696B00DA20F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065BA2EA1990696B00DA20F7;
+			remoteInfo = RemotelessPlayer;
+		};
+		065BA31C199069A300DA20F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065BA2E31990696B00DA20F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065BA313199069A300DA20F7;
+			remoteInfo = MusicExtension;
+		};
+		065BA31F199069A300DA20F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065BA2E31990696B00DA20F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065BA313199069A300DA20F7;
+			remoteInfo = MusicExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		065BA324199069A300DA20F7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				065BA31E199069A300DA20F7 /* MusicExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		065BA2EB1990696B00DA20F7 /* RemotelessPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemotelessPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		065BA2EF1990696B00DA20F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065BA2F01990696B00DA20F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		065BA2F31990696B00DA20F7 /* RemotelessPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemotelessPlayer.xcdatamodel; sourceTree = "<group>"; };
+		065BA2F51990696B00DA20F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		065BA2F81990696B00DA20F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065BA2FA1990696B00DA20F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		065BA3001990696B00DA20F7 /* RemotelessPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemotelessPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065BA3051990696B00DA20F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065BA3061990696B00DA20F7 /* RemotelessPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotelessPlayerTests.swift; sourceTree = "<group>"; };
+		065BA314199069A300DA20F7 /* MusicExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MusicExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		065BA317199069A300DA20F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065BA318199069A300DA20F7 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		065BA31A199069A300DA20F7 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065BA2E81990696B00DA20F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065BA2FD1990696B00DA20F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065BA311199069A300DA20F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065BA2E21990696B00DA20F7 = {
+			isa = PBXGroup;
+			children = (
+				065BA2ED1990696B00DA20F7 /* RemotelessPlayer */,
+				065BA3031990696B00DA20F7 /* RemotelessPlayerTests */,
+				065BA315199069A300DA20F7 /* MusicExtension */,
+				065BA2EC1990696B00DA20F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065BA2EC1990696B00DA20F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065BA2EB1990696B00DA20F7 /* RemotelessPlayer.app */,
+				065BA3001990696B00DA20F7 /* RemotelessPlayerTests.xctest */,
+				065BA314199069A300DA20F7 /* MusicExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065BA2ED1990696B00DA20F7 /* RemotelessPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				065BA2F01990696B00DA20F7 /* AppDelegate.swift */,
+				065BA2F51990696B00DA20F7 /* ViewController.swift */,
+				065BA2F71990696B00DA20F7 /* Main.storyboard */,
+				065BA2FA1990696B00DA20F7 /* Images.xcassets */,
+				065BA2F21990696B00DA20F7 /* RemotelessPlayer.xcdatamodeld */,
+				065BA2EE1990696B00DA20F7 /* Supporting Files */,
+			);
+			path = RemotelessPlayer;
+			sourceTree = "<group>";
+		};
+		065BA2EE1990696B00DA20F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				065BA2EF1990696B00DA20F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		065BA3031990696B00DA20F7 /* RemotelessPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				065BA3061990696B00DA20F7 /* RemotelessPlayerTests.swift */,
+				065BA3041990696B00DA20F7 /* Supporting Files */,
+			);
+			path = RemotelessPlayerTests;
+			sourceTree = "<group>";
+		};
+		065BA3041990696B00DA20F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				065BA3051990696B00DA20F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		065BA315199069A300DA20F7 /* MusicExtension */ = {
+			isa = PBXGroup;
+			children = (
+				065BA318199069A300DA20F7 /* ActionViewController.swift */,
+				065BA31A199069A300DA20F7 /* MainInterface.storyboard */,
+				065BA316199069A300DA20F7 /* Supporting Files */,
+			);
+			path = MusicExtension;
+			sourceTree = "<group>";
+		};
+		065BA316199069A300DA20F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				065BA317199069A300DA20F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065BA2EA1990696B00DA20F7 /* RemotelessPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065BA30A1990696B00DA20F7 /* Build configuration list for PBXNativeTarget "RemotelessPlayer" */;
+			buildPhases = (
+				065BA2E71990696B00DA20F7 /* Sources */,
+				065BA2E81990696B00DA20F7 /* Frameworks */,
+				065BA2E91990696B00DA20F7 /* Resources */,
+				065BA324199069A300DA20F7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065BA31D199069A300DA20F7 /* PBXTargetDependency */,
+				065BA320199069A300DA20F7 /* PBXTargetDependency */,
+			);
+			name = RemotelessPlayer;
+			productName = RemotelessPlayer;
+			productReference = 065BA2EB1990696B00DA20F7 /* RemotelessPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065BA2FF1990696B00DA20F7 /* RemotelessPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065BA30D1990696B00DA20F7 /* Build configuration list for PBXNativeTarget "RemotelessPlayerTests" */;
+			buildPhases = (
+				065BA2FC1990696B00DA20F7 /* Sources */,
+				065BA2FD1990696B00DA20F7 /* Frameworks */,
+				065BA2FE1990696B00DA20F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065BA3021990696B00DA20F7 /* PBXTargetDependency */,
+			);
+			name = RemotelessPlayerTests;
+			productName = RemotelessPlayerTests;
+			productReference = 065BA3001990696B00DA20F7 /* RemotelessPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		065BA313199069A300DA20F7 /* MusicExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065BA321199069A300DA20F7 /* Build configuration list for PBXNativeTarget "MusicExtension" */;
+			buildPhases = (
+				065BA310199069A300DA20F7 /* Sources */,
+				065BA311199069A300DA20F7 /* Frameworks */,
+				065BA312199069A300DA20F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicExtension;
+			productName = MusicExtension;
+			productReference = 065BA314199069A300DA20F7 /* MusicExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065BA2E31990696B00DA20F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Bratin;
+				TargetAttributes = {
+					065BA2EA1990696B00DA20F7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					065BA2FF1990696B00DA20F7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 065BA2EA1990696B00DA20F7;
+					};
+					065BA313199069A300DA20F7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 065BA2E61990696B00DA20F7 /* Build configuration list for PBXProject "RemotelessPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065BA2E21990696B00DA20F7;
+			productRefGroup = 065BA2EC1990696B00DA20F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065BA2EA1990696B00DA20F7 /* RemotelessPlayer */,
+				065BA2FF1990696B00DA20F7 /* RemotelessPlayerTests */,
+				065BA313199069A300DA20F7 /* MusicExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065BA2E91990696B00DA20F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065BA2F91990696B00DA20F7 /* Main.storyboard in Resources */,
+				065BA2FB1990696B00DA20F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065BA2FE1990696B00DA20F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065BA312199069A300DA20F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065BA31B199069A300DA20F7 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065BA2E71990696B00DA20F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065BA2F61990696B00DA20F7 /* ViewController.swift in Sources */,
+				065BA2F11990696B00DA20F7 /* AppDelegate.swift in Sources */,
+				065BA2F41990696B00DA20F7 /* RemotelessPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065BA2FC1990696B00DA20F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065BA3071990696B00DA20F7 /* RemotelessPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065BA310199069A300DA20F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065BA319199069A300DA20F7 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065BA3021990696B00DA20F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065BA2EA1990696B00DA20F7 /* RemotelessPlayer */;
+			targetProxy = 065BA3011990696B00DA20F7 /* PBXContainerItemProxy */;
+		};
+		065BA31D199069A300DA20F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065BA313199069A300DA20F7 /* MusicExtension */;
+			targetProxy = 065BA31C199069A300DA20F7 /* PBXContainerItemProxy */;
+		};
+		065BA320199069A300DA20F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065BA313199069A300DA20F7 /* MusicExtension */;
+			targetProxy = 065BA31F199069A300DA20F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		065BA2F71990696B00DA20F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065BA2F81990696B00DA20F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065BA3081990696B00DA20F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		065BA3091990696B00DA20F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065BA30B1990696B00DA20F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RemotelessPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		065BA30C1990696B00DA20F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RemotelessPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		065BA30E1990696B00DA20F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RemotelessPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemotelessPlayer.app/RemotelessPlayer";
+			};
+			name = Debug;
+		};
+		065BA30F1990696B00DA20F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RemotelessPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemotelessPlayer.app/RemotelessPlayer";
+			};
+			name = Release;
+		};
+		065BA322199069A300DA20F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		065BA323199069A300DA20F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MusicExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065BA2E61990696B00DA20F7 /* Build configuration list for PBXProject "RemotelessPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065BA3081990696B00DA20F7 /* Debug */,
+				065BA3091990696B00DA20F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065BA30A1990696B00DA20F7 /* Build configuration list for PBXNativeTarget "RemotelessPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065BA30B1990696B00DA20F7 /* Debug */,
+				065BA30C1990696B00DA20F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		065BA30D1990696B00DA20F7 /* Build configuration list for PBXNativeTarget "RemotelessPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065BA30E1990696B00DA20F7 /* Debug */,
+				065BA30F1990696B00DA20F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		065BA321199069A300DA20F7 /* Build configuration list for PBXNativeTarget "MusicExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065BA322199069A300DA20F7 /* Debug */,
+				065BA323199069A300DA20F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		065BA2F21990696B00DA20F7 /* RemotelessPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				065BA2F31990696B00DA20F7 /* RemotelessPlayer.xcdatamodel */,
+			);
+			currentVersion = 065BA2F31990696B00DA20F7 /* RemotelessPlayer.xcdatamodel */;
+			path = RemotelessPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 065BA2E31990696B00DA20F7 /* Project object */;
+}
